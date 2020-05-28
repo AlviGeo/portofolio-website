@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
+import Skills from './Skills';
 import "../App.css";
 
 class Resume extends Component {
@@ -45,7 +46,7 @@ class Resume extends Component {
             <Education
               startYear={2020}
               endYear={2020}
-              schoolName="My University"
+              schoolName="Universitas Internasional Batam"
               schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
@@ -53,7 +54,7 @@ class Resume extends Component {
             <Education
               startYear={2020}
               endYear={2023}
-              schoolName="My University"
+              schoolName="Glints Academy"
               schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
@@ -62,10 +63,44 @@ class Resume extends Component {
             <Experience
               startYear={2020}
               endYear={2020}
-              jobName="First Job"
+              jobName="ImpactByte"
               jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
+
+            <Experience
+              startYear={2020}
+              endYear={2020}
+              jobName="Lorem Ipsum"
+              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            />
+
+            <Experience
+                startYear={2020}
+                endYear={2020}
+                jobName="Lorem Ipsum"
+                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                />
+                <hr style={{borderTop: '3px solid #e22947'}} />
+                <h2>Skills</h2>
+                <Skills 
+                    skill="HTML/CSS"
+                    progress={75}
+                />
+                <Skills 
+                    skill="Javascript"
+                    progress={65}
+                />
+                <Skills 
+                    skill="React"
+                    progress={50}
+                />
+                <Skills 
+                    skill="Express"
+                    progress={50}
+                />
           </Cell>
         </Grid>
       </div>

@@ -13,8 +13,8 @@ class Navbar extends Component {
       <Layout>
       <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Alvi G</Link>} scroll>
             <Navigation>
-                <Link to="/Resume">Resume</Link>
                 <Link to="/About">About Me</Link>
+                <Link to="/Resume">Resume</Link>
                 <Link to="/Project">Projects</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>
