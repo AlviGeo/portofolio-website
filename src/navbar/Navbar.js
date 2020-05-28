@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Alvi G</Link>}>
           <Navigation>
             <Link to="/">Resume</Link>
             <Link to="/About">About</Link>
