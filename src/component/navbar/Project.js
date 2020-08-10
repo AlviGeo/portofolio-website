@@ -12,7 +12,7 @@ import {
   CardMenu,
   IconButton,
 } from "react-mdl";
-import '../App.css';
+import '../../App.css';
 
 class Projects extends Component {
   constructor(props) {
@@ -52,7 +52,7 @@ class Projects extends Component {
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
-              style={{
+              style={{  
                 color: "#fff",
                 height: "176px",
                 background:

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import formContact from './formContact';
+import "./style.css";
 
 class Contact extends Component {
   render() {
@@ -27,40 +29,48 @@ class Contact extends Component {
             <hr />
 
             <div className="contact-list">
-            <List>
-              <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />
                     (+62) 812-7578-2481
-                </ListItemContent>
-              </ListItem>
+                  </ListItemContent>
+                </ListItem>
 
-              <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-whatsapp" aria-hidden="true"/>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-whatsapp" aria-hidden="true" />
                     (+62) 812-7578-2481
-                </ListItemContent>
-              </ListItem>
+                  </ListItemContent>
+                </ListItem>
 
-              <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-envelope" aria-hidden="true" />
                     Alvigeovan29@gmail.com
-                </ListItemContent>
-              </ListItem>
+                  </ListItemContent>
+                </ListItem>
 
-              <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-facebook-square" aria-hidden="true"/>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-facebook-square" aria-hidden="true" />
                     Alvi Geovanny
-                </ListItemContent>
-              </ListItem>
-            </List>
+                  </ListItemContent>
+                </ListItem>
+              </List>
             </div>
-
           </Cell>
         </Grid>
       </div>
+      
     );
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import "../App.css";
+import '../../App.css'
 
 class Landing extends Component {
   render() {
@@ -14,19 +14,16 @@ class Landing extends Component {
               className="me"
             />
             <div className="banner-text">
-              <h1>Full Stack Developer</h1>
-
+              <h1>Javascript Fullstack Developer</h1>
               <hr />
-
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express{" "}
               </p>
-
               <div className="social-links">
 
                   {/* LinkedIn*/}
                 <a
-                  href="https://www.google.com/"
+                  href="https://www.linkedin.com/in/alvi-geovanny-3830b11a5/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -34,7 +31,7 @@ class Landing extends Component {
                 </a>
                 {/* Github*/}
                 <a
-                  href="https://www.google.com/"
+                  href="https://github.com/AlviGeo"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

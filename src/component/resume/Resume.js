@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from './Skills';
-import "../App.css";
+import "../../App.css";
 
 class Resume extends Component {
   render() {
@@ -87,11 +87,11 @@ class Resume extends Component {
                 <h2>Skills</h2>
                 <Skills 
                     skill="HTML/CSS"
-                    progress={75}
+                    progress={50}
                 />
                 <Skills 
                     skill="Javascript"
-                    progress={65}
+                    progress={50}
                 />
                 <Skills 
                     skill="React"
